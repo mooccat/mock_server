@@ -1,5 +1,4 @@
 const Base = require('./base.js');
-const httpProxy = require('http-proxy');
 const xml2js = require('xml2js');
 module.exports = class extends Base {
     async __before() {
